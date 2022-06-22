@@ -21,11 +21,11 @@ local TextButton_Roundify_2px_6 = Instance.new("ImageLabel")
 local button5 = Instance.new("TextButton")
 local TextButton_Roundify_2px_7 = Instance.new("ImageLabel")
 local annoylbl = Instance.new("TextLabel")
-local maincolor = Color3.new(0.231373, 0.231372, 0.231372)
+local maincolor = Color3.new(_G.maincolor.R/255, _G.maincolor.G/255, _G.maincolor.B/255)
 local shadowcolor = Color3.new(0.160784, 0.160784, 0.168627)
-local secondarycolor = Color3.new(1, 171/255, 0)
-local textcolor = Color3.new(255, 255, 255)
-local phtextcolor = Color3.new(201, 218, 255)
+local secondarycolor = Color3.new(_G.secondarycolor.R/255, _G.secondarycolor.G/255, _G.secondarycolor.B/255)
+local textcolor = Color3.new(_G.textcolor.R/255, _G.textcolor.G/255, _G.textcolor.B/255)
+local phtextcolor = Color3.new(_G.placeholdertextcolor.R/255, _G.placeholdertextcolor.G/255, _G.placeholdertextcolor.B/255)
 
 ScreenGui.Parent = game.CoreGui
 
@@ -360,7 +360,7 @@ annoylbl.TextScaled = true
 annoylbl.TextSize = 14
 annoylbl.TextWrapped = true
 
-print(_G.yep)
+
 
 
 local UIS = game:GetService('UserInputService')

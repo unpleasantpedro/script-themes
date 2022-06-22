@@ -21,11 +21,11 @@ local TextButton_Roundify_2px_6 = Instance.new("ImageLabel")
 local button5 = Instance.new("TextButton")
 local TextButton_Roundify_2px_7 = Instance.new("ImageLabel")
 local annoylbl = Instance.new("TextLabel")
-local maincolor = Color3.new(59, 59, 59)
-local shadowcolor = Color3.new(41, 41, 43)
-local secondarycolor = Color3.new(93, 131, 255)
-local textcolor = Color3.new(255,255,255)
-local phtextcolor = Color3.new(201, 218, 255)
+local maincolor = Color3.new(0.231373, 0.231372, 0.231372)
+local shadowcolor = Color3.new(0.160784, 0.160784, 0.168627)
+local secondarycolor = Color3.new((93/255), (131/255), 1)
+local textcolor = Color3.new(1, 1, 1)
+local phtextcolor = Color3.new(201/255, 218/255, 255/255)
 
 ScreenGui.Parent = game.CoreGui
 
